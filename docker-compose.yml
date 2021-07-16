@@ -1,0 +1,31 @@
+version: '3'
+services:
+  dynfiapp:
+    container_name: dynfiapp
+    hostname: dynfiapp
+    build:
+      context: ./
+      dockerfile: Dockerfile_Java
+    volumes:
+      - ./conf:/data/conf
+    links:
+      - dynfidb:dynfidb
+    ports:
+      - '9090:9090'
+    #command: mongod && java -jar dynfi-21.0.5-all.jar
+    
+  dynfidb:
+    container_name: dynfidb
+    hostname: dynfidb
+    build:
+      context: ./
+      dockerfile: Dockerfile_mongo
+    volumes:
+      - mongo-db:/data/db
+    #ports:
+      #- '9090:9090'
+    #command: mongod && java -jar dynfi-21.0.5-all.jar
+
+volumes:
+  mongo-db:
+    driver: local
