@@ -1,3 +1,13 @@
+# LeeMe
+
+## Gestion Centralizada
+Administre todos sus dispositivos remotos desde un tablero centralizado. DynFi es la única solución de firewall empresarial compatible con los firewalls pfSense® y OPNsense®. Disponible en las instalaciones o en la nube para adaptarse a las necesidades de su negocio, DynFi es la única solución verdaderamente escalable que aún le garantiza un bajo TCO.
+## Configuración rápida
+Con DynFi, puede configurar los firewalls en lotes en lugar de uno por uno, lo que lo ayuda a configurarlo en minutos, no en horas o días. También puede automatizar fácilmente actualizaciones y otras tareas administrativas, como conjuntos de reglas de alias. Con solo unos pocos clics, puede ahorrar tiempo tanto por adelantado como con la administración continua de su red.
+## Interfaz única e intuitiva
+La interfaz del panel de control DynFi es intuitiva y fácil de usar. A diferencia de otras interfaces, puede obtener información única sobre la actividad y las amenazas en toda la red al ver las ubicaciones del firewall por mapa, filtrar el estado en tiempo real y obtener una visibilidad y análisis completos de su red. La consola central facilita la supervisión y la gestión de la seguridad de su red distribuida.
+
+
 # Instalar Docker
 
 [Centos] https://docs.docker.com/engine/install/centos/
@@ -33,4 +43,6 @@ Para mas ayuda puedes consultar los siguientes apartados del fabricante
 [Fabricante] https://dynfi.com/
 
 [Documentacion]  https://dynfi.com/documentation/index.html
+
+[Licencia] https://dynfi.com/license-agreement
 
