@@ -1,10 +1,23 @@
 # LeeMe
 
-## Gestion Centralizada
+Es un software de gestion de Firewalls opensource, DynFi tiene un potente front-end integrado basado en React-JS que le permite conectarse a funciones centrales como:
+
+actualizaciones automatizadas,
+gráficos RRD centrales,
+GeoLocalización de dispositivos,
+copia de seguridad automatizada de la configuración,
+estado instantáneo,
+monitoreo completo de dispositivos que incluye:
+CPU, memoria
+Mbuf, estados
+Disco, temperatura (cuando esté disponible)
+mapeo de interfaz para una comprensión rápida de la configuración de la interfaz 
+
+### Gestion Centralizada
 Administre todos sus dispositivos remotos desde un tablero centralizado. DynFi es la única solución de firewall empresarial compatible con los firewalls pfSense® y OPNsense®. Disponible en las instalaciones o en la nube para adaptarse a las necesidades de su negocio, DynFi es la única solución verdaderamente escalable que aún le garantiza un bajo TCO.
-## Configuración rápida
+### Configuración rápida
 Con DynFi, puede configurar los firewalls en lotes en lugar de uno por uno, lo que lo ayuda a configurarlo en minutos, no en horas o días. También puede automatizar fácilmente actualizaciones y otras tareas administrativas, como conjuntos de reglas de alias. Con solo unos pocos clics, puede ahorrar tiempo tanto por adelantado como con la administración continua de su red.
-## Interfaz única e intuitiva
+### Interfaz única e intuitiva
 La interfaz del panel de control DynFi es intuitiva y fácil de usar. A diferencia de otras interfaces, puede obtener información única sobre la actividad y las amenazas en toda la red al ver las ubicaciones del firewall por mapa, filtrar el estado en tiempo real y obtener una visibilidad y análisis completos de su red. La consola central facilita la supervisión y la gestión de la seguridad de su red distribuida.
 
 
@@ -18,7 +31,7 @@ La interfaz del panel de control DynFi es intuitiva y fácil de usar. A diferenc
 
 [docker-compose install] https://docs.docker.com/compose/install/
 
-# Instalacion de App Dynfi
+# Clonacion directorio themendas/Dynfi
 
 Clonar el directorio de la siguiente forma:
 ```bash
@@ -32,9 +45,9 @@ Ejecutar el siguiente comando:
 docker-compose up -d
 ```
 
-# Acceso APP
+# Acceso Web APP
 ```bash
-https://"ip":9090
+https://%ip servidor%:9090
 ```
 # Ver Tambien:
 
