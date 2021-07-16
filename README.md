@@ -7,7 +7,7 @@ Es un software de gestion de Firewalls opensource, DynFi tiene un potente front-
 * GeoLocalización de dispositivos
 * Copia de seguridad automatizada de la configuración
 * Estado instantáneo
-* Monitoreo completo de dispositivos que incluye
+* Monitoreo completo de dispositivos que incluye:
   * CPU, memoria
   * Mbuf, estados
   * Disco, temperatura (cuando esté disponible)
