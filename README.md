@@ -1,9 +1,12 @@
 # Instalar Docker
 
-Instalar Docker en Centos
-include::https://docs.docker.com/engine/install/centos/
-Instalar docker en Ubuntu
-include::https://docs.docker.com/engine/install/ubuntu/
+[Centos] https://docs.docker.com/engine/install/centos/
+
+[Ubuntu] https://docs.docker.com/engine/install/ubuntu/
+
+# Instalar docker-compose
+
+[docker-compose install] https://docs.docker.com/compose/install/
 
 # Instalacion de App Dynfi
 
@@ -16,7 +19,7 @@ git clone git@github.com:themendas/DynFi.git
 
 Ejecutar el siguiente comando:
 ```bash
-docker up -d
+docker-compose up -d
 ```
 
 # Acceso APP
