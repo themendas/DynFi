@@ -2,16 +2,16 @@
 
 Es un software de gestion de Firewalls opensource, DynFi tiene un potente front-end integrado basado en React-JS que le permite conectarse a funciones centrales como:
 
-* actualizaciones automatizadas
-* gráficos RRD centrales
+* Actualizaciones automatizadas
+* Gráficos RRD centrales
 * GeoLocalización de dispositivos
-* copia de seguridad automatizada de la configuración
-* estado instantáneo
-* monitoreo completo de dispositivos que incluye
-  ** CPU, memoria
-  ** Mbuf, estados
-  ** Disco, temperatura (cuando esté disponible)
-  ** mapeo de interfaz para una comprensión rápida de la configuración de la interfaz 
+* Copia de seguridad automatizada de la configuración
+* Estado instantáneo
+* Monitoreo completo de dispositivos que incluye
+  * CPU, memoria
+  * Mbuf, estados
+  * Disco, temperatura (cuando esté disponible)
+  * mapeo de interfaz para una comprensión rápida de la configuración de la interfaz 
 
 ### Gestion Centralizada
 Administre todos sus dispositivos remotos desde un tablero centralizado. DynFi es la única solución de firewall empresarial compatible con los firewalls pfSense® y OPNsense®. Disponible en las instalaciones o en la nube para adaptarse a las necesidades de su negocio, DynFi es la única solución verdaderamente escalable que aún le garantiza un bajo TCO.
