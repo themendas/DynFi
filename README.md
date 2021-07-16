@@ -1,4 +1,4 @@
-# LeeMe
+# DynFi Dockerizado
 
 Es un software de gestion de Firewalls opensource, DynFi tiene un potente front-end integrado basado en React-JS que le permite conectarse a funciones centrales como:
 
