@@ -1,3 +1,63 @@
+# DynFi Dockerized
+
+It is an open-source firewall management software. DynFi has a powerful integrated front-end based on React-JS that allows you to connect to central functions such as:
+
+- Automated updates
+- Central RRD graphs
+- Device geolocation
+- Automated configuration backup
+- Instant status
+- Comprehensive device monitoring including:
+  - CPU, memory
+  - Mbuf, states
+  - Disk, temperature (when available)
+  - Interface mapping for a quick understanding of the interface configuration
+
+### Centralized Management
+Manage all your remote devices from a centralized dashboard. DynFi is the only enterprise firewall solution compatible with pfSense® and OPNsense® firewalls. Available on-premises or in the cloud to suit your business needs, DynFi is the only truly scalable solution that still ensures a low Total Cost of Ownership (TCO).
+
+# Quick Configuration
+With DynFi, you can configure firewalls in batches instead of one by one, helping you set it up in minutes, not hours or days. You can also easily automate updates and other administrative tasks, such as alias rule sets. With just a few clicks, you can save time both upfront and with the ongoing management of your network.
+
+# Single and intuitive Interface
+The DynFi control panel interface is intuitive and easy to use. Unlike other interfaces, you can gain unique insights into activity and threats across the network by viewing firewall locations on a map, filtering real-time status, and getting complete visibility and analysis of your network. The central console makes monitoring and managing the security of your distributed network easy.
+
+### Install Docker
+[Centos] https://docs.docker.com/engine/install/centos/
+
+[Ubuntu] https://docs.docker.com/engine/install/ubuntu/
+
+### Install docker-compose
+[docker-compose install] https://docs.docker.com/compose/install/
+
+### Clone the 'themendas/Dynfi' directory
+
+Clone the directory as follows:
+```bash
+git clone git@github.com:themendas/DynFi.git
+```
+
+### Install Dynfi App
+Execute the following command:
+
+```bash
+docker-compose up -d
+```
+
+### Web App Access
+https://%server_ip%:9090
+
+### See Also:
+For more help, you can refer to the following sections from the manufacturer
+
+[Manufacturer] https://dynfi.com/
+
+[Documentation] https://dynfi.com/documentation/index.html
+
+[License] https://dynfi.com/license-agreement"
+
+-----
+
 # DynFi Dockerizado
 
 Es un software de gestion de Firewalls opensource, DynFi tiene un potente front-end integrado basado en React-JS que le permite conectarse a funciones centrales como:
