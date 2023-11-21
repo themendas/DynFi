@@ -1,45 +1,30 @@
-FROM alpine:3.11.2
+FROM alpine:latest
 
+ARG DYNFI_VERSION
 
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/main' >> /etc/apk/repositories
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/community' >> /etc/apk/repositories
+
 RUN apk update
 
 # install bash
-RUN \
-  apk add --no-cache bash
-
-# install Mongo
-#RUN \
-#  apk add mongodb=3.4.4-r0
-  
 RUN apk --no-cache --update add openjdk11 
-
-# Create dir Mongo
-#RUN mkdir -p /data/db
-#RUN chown mongodb:mongodb /data/db
+RUN apk add --no-cache bash
+RUN apk add --no-cache curl
 
 # Create DIR config
 RUN mkdir -p /data/conf
-
+RUN mkdir -p /data/app
 
 WORKDIR /data/app
 
-COPY dynfi-21.0.5-all.jar .
-
+# Download Dynfi binaries
+RUN curl -o /data/app/dynfi.jar https://dynfi.com/files/dynfi/dynfi-$DYNFI_VERSION-all.jar
 
 # Define mountable directories.
 VOLUME ["/data/db"]
 VOLUME ["/data/conf"]
 
 # CGO has to be disabled for alpine
-#RUN export CGO_ENABLED=0
 
-#RUN \
-#  apk add dos2unix
-#COPY run.sh ./run.sh
-#RUN dos2unix ./run.sh
-#ENTRYPOINT [ "./run.sh" ]
-
-#CMD [ "mongod" ] 
-CMD [ "java", "-jar", "dynfi-21.0.5-all.jar", "--config",  "/data/conf/custom.dynfi.conf" ]
+CMD [ "java", "-jar", "/data/app/dynfi.jar", "--config",  "/data/conf/custom.dynfi.conf" ]
