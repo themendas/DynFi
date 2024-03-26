@@ -18,6 +18,7 @@ services:
       - dynfidb:dynfidb
     ports:
       - '9090:9090'
+      - '2222:2222'
 
   dynfidb:
     container_name: dynfidb
