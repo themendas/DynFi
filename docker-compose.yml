@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     hostname: dynfiapp
     image: gfa/dynfi:23.2.2
+    pull_policy: build
     build:
       context: ./
       dockerfile: Dockerfile_Java
@@ -22,6 +23,7 @@ services:
     container_name: dynfidb
     restart: unless-stopped
     hostname: dynfidb
+    pull_policy: build
     build:
       context: ./
       dockerfile: Dockerfile_mongo
