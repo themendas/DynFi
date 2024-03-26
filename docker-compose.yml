@@ -9,7 +9,7 @@ services:
       context: ./
       dockerfile: Dockerfile_Java
       args:
-        DYNFI_VERSION: "23.2.2"
+        DYNFI_VERSION: "23.3.1"
       
     volumes:
       - ./conf:/data/conf
